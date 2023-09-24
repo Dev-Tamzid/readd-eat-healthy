@@ -1,0 +1,17 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+        font-family: 'Poppins', sans-serif;
+        
+}
+
+/* heaser css start */
+#header-sec{
+    display: flex;
+}
+.header-item{
+    width: 80%;
+}
+.header-item img{
+    width: 80%;
+}
+/* heaser css end */
