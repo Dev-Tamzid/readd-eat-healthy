@@ -1,17 +1,74 @@
 body{
     font-family: 'Open Sans', sans-serif;
         font-family: 'Poppins', sans-serif;
-        
+}
+h1{
+    font-size: 70px;
+    line-height: .75;
 }
 
 /* heaser css start */
 #header-sec{
     display: flex;
+    margin-left: 5%;
 }
 .header-item{
-    width: 80%;
+    width: 100%;
+   
 }
 .header-item img{
-    width: 80%;
+    width: 100%;
+}
+.orange{
+    color: orange;
+}
+.header-btn{
+    text-decoration: none;
+    background-image:-moz-linear-gradient(red,orange);
+    padding: 20px 50px;
+    border-radius: 50px;
+    color: white;
+    display: inline-block;
+    margin-top: 15px;
+    font-weight: 500;
+}
+.header-left{
+    padding-top: 10%;
+}
+
+.header-right{
+    background-image:url(images/shapes/Group\ 8450.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size:600px;
 }
 /* heaser css end */
+
+/* Banner-start */
+.banner-sec{
+    display: flex;
+    background-image: url(images/shapes/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner-img{
+ 
+}
+
+.banner-text{
+    width: 50%;
+}
+
+.banner-img img{
+    width: 100%;
+}
+
+/* .banner-item img{
+    width: 50%;
+} */
+
+/* .banner-img{
+    width: 100%;
+} */
+
+/* Banner-end */
